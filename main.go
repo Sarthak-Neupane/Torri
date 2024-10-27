@@ -3,17 +3,17 @@ package main
 import (
 	"fmt"
     "os"
-    "os/user"
+    // "os/user"
     "torri/repl"
     // "io"
 )
 
 func main() {
 	// Get current user for personalized greeting
-    user, err := user.Current()
-    if err != nil {
-        panic(err)
-    }
+    // user, err := user.Current()
+    // if err != nil {
+    //     panic(err)
+    // }
     
     if len(os.Args) > 1 {
         // If a command is given, check if it's "run" and execute file
@@ -29,7 +29,7 @@ func main() {
     }
 
     // Start REPL if no arguments are given
-    fmt.Printf("Yoooooo %s! This is the new Torri language!\n", user.Username)
+    fmt.Printf("Yoooooo! This is the new Torri language!\n")
     fmt.Println("Just type anything")
     repl.Start(os.Stdin, os.Stdout)
 }
