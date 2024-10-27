@@ -1,0 +1,4 @@
+la a = 5;
+la b = 6;
+la c = a + b;
+lekh(c)
