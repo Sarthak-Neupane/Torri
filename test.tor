@@ -1,4 +1,23 @@
-la a = 5;
-la b = 6;
-la c = a + b;
-lekh(c)
+la valueOne = 5;
+la valueTwo = 6;
+
+la abs = fcn(a, b) {
+    yedi(a > b){
+        firta(a - b)
+    } kita (a < b) {
+        firta(b - a)
+    } natra {
+        firta(0)
+    }
+}
+
+la result = abs(valueOne, valueTwo)
+lekh(result)
+
+la addressOne = "21 Ace Avenue"
+la city = "Starkville"
+la state = "Mississippi"
+
+la fullAddress = addressOne + ", " + city + ", " + state
+lekh(fullAddress)
+

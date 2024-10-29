@@ -2,7 +2,6 @@ package lexer
 
 import (
 	"testing"
-
 	"torri/token"
 )
 

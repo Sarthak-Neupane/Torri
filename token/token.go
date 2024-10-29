@@ -60,7 +60,7 @@ var keywords = map[string]TokenType{
 	"true": TRUE,
 	"false": FALSE,
 	"yedi": IF,
-	"kita": ELSE,
+	"kita": IF,
 	"natra": ELSE,
 	"firta": RETURN,
 }
