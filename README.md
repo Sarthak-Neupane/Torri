@@ -1,5 +1,8 @@
 # Torri Interpreter
 
+_💡 Inspired by [Bhailang.js](https://bhailang.js.org/).
+
+
 **Torri** is a custom interpreter built in **Golang**, featuring a **REPL (Read-Eval-Print Loop)** for intuitive scripting. It includes essential programming functions, variable handling, and control flow, using both English and Nepali keywords, making it a great tool for scripting and educational use.
 
 ## Features
