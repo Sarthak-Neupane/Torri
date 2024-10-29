@@ -52,6 +52,35 @@
 
 ## Usage
 
+### Syntax
+
+- **Variables**: Variables can be declared using the `la` keyword and assigned using the `=` operator.
+  ```go
+  la x = 10;
+  la y = 20;
+  ```
+- **Control Flow**: Control flow statements can be written using Nepali keywords. The `yedi` keyword is used for `if`, `kita` for `else if`, and `natra` for `else`.
+  ```go
+  yedi x > y {
+      lekh("x is greater than y");
+  } natra {
+      lekh("y is greater than x");
+  }
+  ```
+- **Functions**: Functions can be defined using the `fcn` keyword and called using the function name. The `firta` (nepali word for `return`) keyword is used to return a value from a function.
+  ```go
+  la add = fcn(a, b) {
+      firta a + b;
+  };
+  
+  la result = add(10, 20);
+  ```
+- **Arrays**: Arrays can be defined using square brackets
+  ```go
+  la numbers = [1, 2, 3, 4, 5];
+  ```
+
+
 ### REPL
 
 - Run the executable without any arguments to start the REPL.
